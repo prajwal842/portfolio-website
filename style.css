@@ -33,18 +33,99 @@ display: flex;
 }
 .left-container, .right-container{
     height: 100vh;
+    display: flex;
+    align-items: center;
     
 }
 
 .left-container{
     background: #262525;
     width: 70%;
+    padding-left: 3rem;
 }
 .right-container{
-    background: #3877ff;
+    background:linear-gradient(-45deg, #3877ff,#262525 70%  );
     width: 30%;
 }
 
 .icons .fa-brands{
     color: #bbb;
+    font-size: 1.7rem;
+    margin-top:3rem
+}
+.icons{
+    display:flex;
+    gap:1.5rem;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.content{
+margin-left: 4rem; 
+}
+.content .intro{
+    font-size: 1.5rem;
+    color: white;
+}
+.content .intro span{
+    color: #5db9ee;
+}
+.content h1{
+    font-size: 4rem;
+    color: #5db9ee;
+}
+.content .detail{
+    font-size: 1.1 rem;
+    color:#fff;
+    max-width:38rem;
+    margin:1.1rem 0 3rem 0;
+
+}
+
+.button-container button{
+    border: .1rem solid #5db9ee;
+    font-size:1.1rem;
+    padding:.8rem 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    color: #5db9ee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+.button-container button:hover{
+    background: #5db9ee;
+    color: #fff;
+}
+button:nth-child(2){
+margin-left: 2rem;
+}
+.icons .fa-brands:hover{
+    color: #5db9ee;
+}
+
+
+.design .circle{
+    aspect-ratio:1;
+    position:absolute;
+    border-radius:50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.circle:nth-child(1){
+    background:linear-gradient(transparent 50%,#262525 50%);
+    width:38rem;
+    
+
+}
+.circle:nth-child(2){
+background-image:url("portfolio.jpg.jpg");
+    width: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 2rem #5db9ee;
 }
