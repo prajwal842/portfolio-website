@@ -135,3 +135,6 @@ margin-left: 2rem;
 
 
 }
+.navlist li a:hover{
+    color: #5db9ee;
+}

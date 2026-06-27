@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: #262525;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 80%;
+}
+
+
+
+h2 span{
+    color: #3877ff;
+}
+
+.project-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.project-card {
+    background: #262525;
+    border: 1px solid #3877ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
